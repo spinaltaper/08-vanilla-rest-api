@@ -1,0 +1,26 @@
+{
+  "name": "08-vanilla-rest-api",
+  "version": "1.0.0",
+  "description": "![cf](https://i.imgur.com/7v5ASc8.png) Lab 08: Vanilla REST API\r ======",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinaltaper/08-vanilla-rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spinaltaper/08-vanilla-rest-api/issues"
+  },
+  "homepage": "https://github.com/spinaltaper/08-vanilla-rest-api#readme",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  }
+}
