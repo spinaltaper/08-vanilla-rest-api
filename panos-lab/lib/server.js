@@ -1,5 +1,12 @@
 let http=require('http');
-http.createServer(function(req,res)){
-    res.write('After 10,000 years, I awaken once more');
-    res.end()
-}).listen(8080);
+
+const Router=require('./router');
+const router=new Router();
+
+require('../route/route-note')(router);
+
+const app=http.createServer(router.routes());
+
+const server=module.exports={};
+server.start=(port,callback)=>app.listen(port,callback);
+start.stop=callback=>app.close(callback);
